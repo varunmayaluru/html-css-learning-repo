@@ -18,17 +18,26 @@
     <img src="logo.png">
   </header>
   <main>
-    <form>
+    <form method="POST">
       <div>
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username" required minlength="2">
+        <label for="useremail">Email</label>
+        <input type="email" id="useremail" name="useremail">
       </div>
       <div>
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" required minlength="2">
+        <label for="booking_date">Booking Date</label>
+        <input type="date" id="booking_date" name="booking_date">
       </div>
-      <button type="submit">Log In</button>
+      <div>
+        <label for="number_of_people">Number of People</label>
+        <input type="range" id="number_of_people" name="number_of_people" min="1" max="8">
+      </div>
+      <div>
+        <label for="user_concern">I agree to the cancellation policy</label>
+        <input type="checkbox" id="user_concern" name="user_concern" required>
+      </div>
+      <button type="submit">Book Now</button>
     </form>
+    
   </main>
 </body>
 
