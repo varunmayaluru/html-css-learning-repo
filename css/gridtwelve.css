@@ -14,3 +14,23 @@
     background-color: lightseagreen;
     grid-column: 1/ span 12;
 }
+
+.eight {
+    background-color: bisque;
+    grid-column: 5/ span 8;
+}
+
+.four {
+    background-color: lightblue;
+    grid-column: 1/ span 4;
+}
+
+.six {
+    background-color: lightsteelblue;
+    grid-column: 5/ span 6;
+}
+
+.seven {
+    background-color: lightcoral;
+    grid-column: 3/ span 7;
+}
